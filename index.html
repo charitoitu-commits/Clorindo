@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clorindo Café</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header class="topbar">
+  <img class="logo" src="img/foto3.png" alt="Clorindo">
+
+  <nav>
+    <a href="#menu">Menú</a>
+    <a href="#galeria">Galería</a>
+    <a href="#ubicacion">Ubicación</a>
+  </nav>
+</header>
+
+  <main>
+
+    <section class="hero">
+      <img src="img/foto2.png" alt="Plato principal Clorindo">
+      <div class="hero-text">
+        <h2>Café, diseño y brunch</h2>
+        <p>Una experiencia visual y gastronómica inspirada en Clorindo.</p>
+      </div>
+    </section>
+
+    <section class="buttons">
+      <button onclick="irMenu()">Menú</button>
+      <button onclick="reservar()">Reservar</button>
+    </section>
+
+    <section id="menu" class="intro">
+      <img src="img/foto1.png" alt="Café Clorindo">
+      <div>
+        <h2>Bienvenidos a Clorindo</h2>
+        <p>
+          Un espacio pensado para disfrutar café, brunch y momentos únicos,
+          con una identidad visual limpia, cálida y moderna.
+        </p>
+      </div>
+    </section>
+
+    <section id="galeria" class="gallery">
+      <img src="img/foto5.png" alt="">
+      <img src="img/foto4.png" alt="Mesa con comida Clorindo">
+    </section>
+
+    <section id="ubicacion" class="location">
+      <h2>Visitá nuestro espacio</h2>
+      <button onclick="comoLlegar()">Como llegar</button>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
